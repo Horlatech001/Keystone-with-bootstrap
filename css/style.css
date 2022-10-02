@@ -1,0 +1,320 @@
+body{
+    font-family: "Raleway";
+}
+.navbar{
+    background:  #133F77;
+}
+.navbar a{
+    color: #fff;
+    font-size: 20px;
+}
+.hero{
+    height: 90vh;
+    background-image: url('/images/bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.welcome{
+    height: inherit;
+}
+.welcome button,
+.about_right button{
+    background: #133F77;
+    color: #fff;
+}
+.boxes{
+    flex-wrap: wrap;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -80px;
+    flex-direction: column;
+}
+.box img{
+    height: 70px;
+    width: 80px;
+}
+.box h1{
+    color: #133F77;
+    font-size: 16px;
+    margin-top: 20px;
+}
+#box_two{
+    background-color: #133F77;
+}
+/* About Us */
+.about_us{
+    background: #F7F7F7;
+    height: auto;
+}
+.award{
+    background: #133F77;
+    height: auto;
+    position: relative; 
+    left: 50px;
+}
+.award h2{
+    font-family: "Raleway";
+    font-size: 18px;
+}
+.about_left{
+    position: relative;
+}
+.about_left,
+.about_right{
+    height: auto;
+    padding-bottom: 30px;
+}
+.about_left img{
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    left: 50px;
+}
+.about_left :nth-child(3){
+    left: 40%;
+    top: -6%;
+}
+.right_top img{
+    width: 30px;
+    height: 8px;
+}
+.decision h2{
+    font-size: 2.2em;
+    font-family: "Raleway";
+}
+.our_goal img,
+.our_vision img
+{
+    height: 50px;
+    width: 80px;
+}
+.goal_icon h2,
+.vision_icon h2{
+    font-size: 20px;
+    color: #133F77;
+}
+.goal_icon p,
+.vision_icon p{
+    font-size: 16px;
+}
+/* Services Section */
+.service_top img{
+    width: 30px;
+    height: 8px;
+}
+.service_boxes{
+    flex-wrap: wrap;
+    width: 70% !important;
+}
+.service_box{
+    width: 180px;
+    height: 180px;
+    flex-direction: column;
+}
+#service_bx{
+    background: #133F77;
+}
+.service_box img{
+    height: 70px;
+    width: 80px;
+}
+.service_box h1{
+    color: #133F77;
+    font-size: 16px;
+    font-family: "Raleway";
+    font-weight: 700;
+}
+.service_box p{
+    font-size: 12px;
+    font-family: "Raleway";
+}
+/* Newsletter Section */
+.news{
+    height: 300px;
+    background:linear-gradient(rgba(19, 63, 119, 0.6), rgba(19, 63, 119, 0.6)),
+    url("/images/computer-desk-electronics-indoors-374074\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: contain;
+}
+.news h1{
+    font-family: "Raleway";
+    font-size: 35px;
+}
+#btns{
+    background: transparent;
+    border: 1px solid #fff;
+}
+.banks{
+    width: 70% !important;
+    position: relative;
+    top: -50px;
+    justify-content: space-around;
+}
+.banks img{
+    height: 60px;
+    width: 100px;
+}
+/* Latest Section */
+.latest{
+    background: #F7F7F7;
+    height: auto;
+}
+.latest_top img{
+    width: 30px;
+    height: 8px;
+}
+.latest_top h2{
+    font-size: 35px;
+}
+.latest_top p{
+    font-size: 16px;
+}
+/* Card Section */
+.card{
+    width: 280px;
+    margin-right: 2em;
+}
+.card_content h2{
+    font-size: 18px;
+}
+.card_content p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card_content a{
+    font-size: 16px;
+    position: relative;
+}
+#card_one{
+    background-color: #133F77;
+}
+#arrow_blue,
+#arrow_white{
+    height: 15px;
+    width: 30px;
+    position: relative;
+    left: 10px;
+}
+/* Footer Section */
+.foot_section{
+    background-color: #133F77;
+    padding-top: 40px;
+}
+.foot_one h2,
+.foot_one h3{
+    font-size: 14px;
+    font-weight: 200;
+}
+.foot_one p{
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "Raleway";
+}
+.foot_one ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Raleway";
+}
+.second_footer{
+    padding-top: 30px;
+}
+.social img{
+    height: 20px;
+    width: 20px;
+    margin-left: 40px;
+}
+.terms span{
+    font-size: 14px;
+    margin-left: 40px;
+}
+@media (max-width:992px){
+    .about_left{
+        padding-top: 10%;
+    }
+    .about_left img{
+        height: 60%;
+        left: 0;
+    }
+    .about_left :nth-child(3){
+        margin-top: 20%;
+    }
+    .award{
+        left: 0;
+    }
+    .decision h2{
+        font-size: 1.5em;
+    }
+    .card{
+        margin-right: 1em;
+    }
+}
+@media (max-width:769px){
+    .hero{
+        height: 70vh;
+    }
+    .about_left{
+        height: 300px;
+        padding-top: 0;
+    }
+    .about_left img{
+        height: 90%;
+    }
+    .about_right{
+        position: relative;
+        top: 70px;
+    }
+    .service_top :nth-child(4){
+        width: 80% !important;
+    }
+    .banks img{
+        width: 70px;
+        height: 60px;
+    }
+    .latest_top :nth-child(4){
+        width: 80% !important;
+    }
+    .main_card{
+        flex-wrap: wrap;
+    }
+    #card_three{
+        position: relative;
+        top: 30px;
+    }
+    .foot_section{
+        padding-top: 0 !important;
+        text-align: center;
+    }
+    .second_footer,
+    .social,
+    .terms{
+        margin-top: 10px;
+    }
+}
+@media (max-width:630px){
+    .service_box{
+        width: 150px;
+        height: 150px;
+    }
+    .service_box img{
+        height: 40px;
+        width: 50px;
+    }
+    .service_box h1{
+        color: #133F77;
+        font-size: 14px;
+        font-family: "Raleway";
+        font-weight: 700;
+    }
+    .service_box p{
+        font-size: 12px;
+        font-family: "Raleway";
+    }
+    #card_two{
+        margin-top: 30px;
+    }
+}
